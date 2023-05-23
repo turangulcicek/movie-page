@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar_wrapper">
+      <div class="logo_wrapper">
+        <h1 class="logo">Cinefil</h1>
+      </div>
+
+      <div class="menu_container">
+        <ul class="menu_list">
+          <li>Anasayfa</li>
+          <li>Filmler</li>
+          <li>Diziler</li>
+          <li>Listem</li>
+          <li>Popüler</li>
+        </ul>
+      </div>
+      <div class="profil_container">
+        <img src="img/profile.jpg" alt="" class="profile_pic" />
+        <div class="profile_text_container">
+          <span class="profile_text">Hesabım</span>
+          <i class="bi bi-caret-down-fill"></i>
+        </div>
+        <div class="toggle">
+          <i class="bi bi-moon-fill toggle_icon"></i>
+          <i class="bi bi-brightness-high-fill toggle_icon"></i>
+          <div class="toggle_ball"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar">
+    <i class="bi bi-search"></i>
+    <i class="bi bi-house-door-fill"></i>
+    <i class="bi bi-people-fill"></i>
+    <i class="bi bi-bookmarks-fill"></i>
+    <i class="bi bi-houseglass-top"></i>
+    <i class="bi bi-cart-fill"></i>
+    <i class="bi bi-gear-fill"></i>
+  </div>
+
+  <!-- featured coontent start -->
+  <div class="container">
+    <div class="content_wrapper">
+      <div class="featured_content">
+        <img src="img/harrypotter-title.png" alt="" class="featured_title" />
+        <p class="featured_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam deserunt
+          possimus officiis ut accusantium architecto enim consequuntur esse quaerat iure, aperiam iusto aspernatur
+          corporis temporibus quia officia facere cumque exercitationem! Cupiditate, provident quidem repellendus quas,
+          perspiciatis nam ea enim laudantium quis obcaecati minima. Libero molestias consequuntur reprehenderit maxime,
+          aliquam quod!</p>
+        <div class="featured_buttons">
+          <button class="play_button">
+            <i class="bi bi-play-circle"></i> Oynat
+          </button>
+          <button class="info_button">
+            <i class="bi bi-info-circle"></i> Daha Fazla Bİlgi
+          </button>
+        </div>
+
+      </div>
+    </div>
+    <!-- filter start -->
+    <div class="movie_list_filter">
+      <select name="" id="">
+        <option value="">Aksiyon</option>
+        <option value="">Animasyon</option>
+        <option value="">Belgesel</option>
+        <option value="">Bilim Kurgu</option>
+        <option value="">Komedi</option>
+
+      </select>
+    </div>
+    <!-- filter end -->
+    <!-- movie list start -->
+    <div class="movie_list_container">
+      <h1 class="movie_list_title">Popüler</h1>
+      <div class="movie_list_wrapper">
+        <ul class="movie_list">
+          <li class="movie_item">
+            <img src="img/f1.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">SPIDER MAN</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f2.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">HULK</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f3.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">GORA</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f4.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">DAREDEVIL</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f6.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">AROG</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f7.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">DARK</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f5.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">HOBBIT</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+
+
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="movie_list_container">
+      <h1 class="movie_list_title">Gündemdekiler</h1>
+      <div class="movie_list_wrapper">
+        <ul class="movie_list">
+          <li class="movie_item">
+            <img src="img/f1.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">SPIDER MAN</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f2.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">HULK</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f3.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">GORA</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f4.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">DAREDEVIL</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f6.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">AROG</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f7.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">DARK</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f5.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">HOBBIT</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+
+
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="movie_list_container">
+      <h1 class="movie_list_title">YENİ ÇIKANLAR</h1>
+      <div class="movie_list_wrapper">
+        <ul class="movie_list">
+          <li class="movie_item">
+            <img src="img/f1.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">SPIDER MAN</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f2.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">HULK</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f3.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">GORA</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f4.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">DAREDEVIL</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f5.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">HOBBIT</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f6.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">AROG</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+          <li class="movie_item">
+            <img src="img/f7.jpg" alt="" class="move_item_img">
+            <div class="move_item_info">
+              <span class="movie_item_title">DARK</span>
+              <div class="movie_item_buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+
+              </div>
+            </div>
+          </li>
+
+
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+  </div>
+  <!-- movie list end -->
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
